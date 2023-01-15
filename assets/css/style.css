@@ -337,7 +337,11 @@ footer p {
     }
 }
 
-/*Responsividade entre dispositivos*/
-@media (max-width: 480px) {
-    
+
+#sidebar {
+    animation: fromBottom 1s;
+}
+
+.container {
+    animation: fromTop 1s;
 }
